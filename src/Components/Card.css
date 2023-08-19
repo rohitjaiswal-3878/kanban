@@ -1,0 +1,56 @@
+.card{
+    padding: 15px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+.card_top{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card_top > p{
+    flex: 0.9;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card_top > .MuiSvgIcon-root{
+    flex: 0.1;
+}
+.card_middle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card_bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+.card_bottom_box1{
+    width: 22px;
+    height: 22px;
+    border: 0.5px solid rgb(194, 193, 193);
+    border-radius: 4px;
+    
+}
+.card_bottom_box2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    border: 0.5px solid rgb(194, 193, 193);
+    border-radius: 4px;
+    padding: 2px;
+    color: gray;
+}
+.card_bottom_box2 > .MuiSvgIcon-root{
+    width: 16px;
+    height: 16px;
+    color: gray;
+}
